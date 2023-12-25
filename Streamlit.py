@@ -1,10 +1,11 @@
 import pandas as pd  #!pip install --ignore-installed Pygments
+import matplotlib.pyplot as plt
 #streamlit run Streamlit.py
 url = "https://data.enseignementsup-recherche.gouv.fr/api/explore/v2.1/catalog/datasets/fr-esr-principaux-diplomes-et-formations-prepares-etablissements-publics/exports/csv?lang=fr&refine=annee_universitaire%3A%222022-23%22&timezone=Europe%2FBerlin&use_labels=true&delimiter=%3B"
 df = pd.read_csv(url,sep=';')
 
 import streamlit as st
-import matplotlib.pyplot as plt
+
 
 st.set_option('deprecation.showPyplotGlobalUse', False)
 
