@@ -77,7 +77,6 @@ if col2.button('Pourcentage de femmes par discipline'):
     
 def plot_graph3():
     #Secteur disciplinaire
-    import matplotlib.pyplot as plt
 
 
     df_grouped = df.groupby('Secteur disciplinaire').sum()
@@ -111,7 +110,6 @@ if col3.button('Pourcentage de femmes par Secteur disciplinaire'):
     
 def plot_graph4():    
     #Diplôme
-    import matplotlib.pyplot as plt
 
 
     df_grouped = df.groupby('Diplôme').sum()
