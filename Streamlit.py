@@ -26,9 +26,6 @@ def plot_graph1():
     # Créer un graphique en barres avec les pourcentages de femmes
     st.bar_chart(df.set_index('Grande discipline')['% femmes'], use_container_width=True)
 
-    # Afficher le graphique
-    st.pyplot()
-
     # Afficher le tableau sans l'index
     st.write(df)  
 
