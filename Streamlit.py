@@ -37,7 +37,7 @@ import streamlit as st
 st.set_option('deprecation.showPyplotGlobalUse', False)
 
 # Ajouter un titre
-st.title("Pourcentage de femmes dans les principaux diplômes préparés dans l'Enseignement supérieur")
+st.title("Pourcentage de femmes dans les principaux diplômes préparés dans l'Enseignement supérieur en 2022")
 
 # Ajouter du texte
 st.write('Source : https://data.enseignementsup-recherche.gouv.fr/explore/dataset/fr-esr-principaux-diplomes-et-formations-prepares-etablissements-publics/information/')
