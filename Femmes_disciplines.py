@@ -1,3 +1,4 @@
+import streamlit as st
 import pandas as pd
 import matplotlib.pyplot as plt
 
@@ -32,7 +33,7 @@ data = {
 df4 = pd.DataFrame(data)
 
 
-import streamlit as st
+
 
 
 st.set_option('deprecation.showPyplotGlobalUse', False)
