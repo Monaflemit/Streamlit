@@ -36,7 +36,7 @@ df4 = pd.DataFrame(data)
 
 
 
-st.set_option('deprecation.showPyplotGlobalUse', False)
+#st.set_option('deprecation.showPyplotGlobalUse', False)
 
 # Ajouter un titre
 st.title("Pourcentage de femmes dans les principaux diplômes préparés dans l'Enseignement supérieur en 2022")
